@@ -6,7 +6,9 @@ For users who create many Github repositories (ahem) It's convenient to be able 
 
 Sometimes private repositories are used for private projects that should not be shared publicly, or which may contain data that is not intended for public distribution such as collections of personal scripts or those for an internal business use. Sometimes people create both private and public repositories for projects, using a private repository to test ideas and a public repository only when it's ready for being shared. 
 
-The only problem is that as your collection of repository scales, it can become challenging to remember which repositories are public and which are private without having to manually check the remotes every time. While there are some solutions, such as using a specific naming convention for private repositories sometimes it would just be nice to have a notification in VS Code to remind you whether the repository you're working on is private or public. This would enhance security by providing a visual reminder to users as to which type of repository they're working in preventing the accidental publishing of personal information. 
+The only problem is that as your collection of repository scales, it can become challenging to remember which repositories are public and which are private without having to manually check the remotes every time. 
+
+While there are some solutions, such as using a specific naming convention for private repositories sometimes it would just be nice to have a notification in VS Code to remind you whether the repository you're working on is private or public. This would enhance security by providing a visual reminder to users as to which type of repository they're working on in order to prevent the accidental publishing of personal information. 
 
 The idea for this project is creating a simple VS code extension which determines whether the repository is public or private and then provides a simple visual indicator as outlined above.  
 
@@ -23,6 +25,21 @@ As an additional complementary feature, the ability to open the detected remote 
 ## Color Scheme / UI / Iconography
 
 Although it seems sensible to use a "green is public" and "red is private" color scheme, that UI actually runs contrary to the objective. For this particular use case, users would wish to be reminded that the repository they're working on *is* public so as to make sure not to commit private information there ... and red is the typical color association for warning messages. Some thought will have to be put into this about the most appropriate choice of emoji or icon or color. 
+
+---
+
+## AI Assisted Development (My Philosophy)
+
+This extension will be developed with the help of AI tools and I think that being transparent about use is the best practice. 
+
+If I think they might be useful, I'll record prompts in a prompts folder and outputs from them in another nested folder.
+
+It feels wrong to me to try to pass off the work of code generation AI tools as one's own. Equally without these tools, I would almost certainly not have the wherewithal to start this project. Besides enjoying trying out these projects, I think it's a good thing that it's becoming easier for less technically inclined people like me to create tools. 
+
+Therefore, I think the idea of crediting AI collaboration makes the most sense. Perhaps the odd tool gets developed that couldn't have been created. And nobody's in the dark about the process used. 
+
+
+---
 
 ## Advanced Feature Ideas
 
